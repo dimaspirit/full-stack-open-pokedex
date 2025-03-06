@@ -107,7 +107,7 @@ describe('<PokemonPage />', () => {
 
     await act(async () => {
       render(
-        <MemoryRouter initialEntries={['/pokemon/eevee']}>
+        <MemoryRouter initialEntries={['/pokemon/vaporeon']}>
           <PokemonPage previous={previous} next={next}/>
         </MemoryRouter>,
       )
